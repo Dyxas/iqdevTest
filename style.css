@@ -1,0 +1,247 @@
+/* Standart settings */
+body,html {
+    padding: 0;
+    margin: 0;
+
+    background: #E5E5E5;
+    overflow: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+.main_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Header Block */
+
+.text_wh_color {
+    color: rgb(223, 223, 223);
+}
+
+
+.header_icon {
+    position: absolute;
+    width: 7.552vw;
+    height: 3.420vh;
+    left: 12.326vw;
+    top: 1.714vh;
+}
+
+.header_text {
+    position: absolute;
+    width: 9.983vw;
+    height: 2.286vh;
+    left: 21.615vw;
+    top: 2vh;
+    
+    font-size: 1.215vw;
+    line-height: 2.286vh;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.content_main_customInput {
+    overflow: hidden;
+}
+
+.content_main_selectCustom {
+    float: right;
+    width: 28%;
+    height: 100%;
+}
+
+.content_main_inputDepositTerm {
+    width: 70%;
+    height: 100%;
+
+    outline: none;
+    border: 0;
+    float: left;
+}
+
+.content_header_text {
+    top: 85px;
+
+    font-size: 3.125vw;
+    line-height: 42px;
+
+    color: #1F2229;
+}
+
+.content_main_inputStyle {
+    box-sizing: border-box;
+    width: 21.007vw;
+    height: 7.429vh;
+    border: 1px solid #000000;
+
+}
+
+.content_timeDeposit {
+    margin-left: 82px;
+}
+
+.content_input_menu {
+    float: left;
+
+    display: grid;
+    height: 100%;
+    margin-top: 10.286vh;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px 82px;
+
+    margin-left: 114px;
+}
+
+#summOfEnt-error {
+    margin-top: 155px;
+}
+
+#interestRatet-error {
+    margin-top: 155px;
+    margin-left: 375px;
+}
+
+#replenishmentAmount-error {
+    margin-top: 262px;
+    margin-left: 375px;
+}
+
+label.error {
+    position:absolute; 
+    display:block; 
+    width:180px;
+    overflow:hidden;
+
+    margin-top: 52px;
+}
+
+.content_summDeposit {
+
+    float: left;
+    margin-top: 38px;
+}
+
+.content_interestRatet {
+    
+    float: left;
+    margin-top: 38px;
+    margin-left: 86px;
+}
+
+.content_inputRadio {
+
+    width: 25px;
+    height: 25px;
+
+
+    margin: 0;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.content_replenishmentAmout {
+    display: none;
+}
+
+.content_calculateButton {
+    float: left;
+    margin-left: 114px;
+    margin-top: 64px;
+
+    color: white;
+    background-color: #33C4A0;
+    border: 1px solid #33C4A0;
+
+    font-size: 12px;
+    width: 172px;
+    height: 52px;
+}
+
+.content_hideBlock_result {
+    position: fixed;
+
+    width: 69.444vw;
+    text-align: left;
+    margin-top: 450px;
+
+    display: none;
+}
+
+.content_hideBlock_result__label {
+    margin-left: 129px;
+    font-size: 12px;
+}
+
+.content_hideBlock_result__priceText {
+    margin-left: 167px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.content_inputRadio_Label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 15px;
+   
+}
+
+input[type=checkbox] {
+    
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+  }
+  
+
+.content_inputRadioBlock {
+    margin: 0;
+}
+
+.content_header_desc {
+    left: 43px;
+
+    margin-top: 4.286vh;
+    font-size: 1.042vw;
+    line-height: 2.000vh;
+
+    color: #1F2229;
+}
+
+.header {
+    position: absolute;
+    width: 100vw;
+    height: 6.286vh;
+    left: 0px;
+    top: 0px;
+
+    background-color: #1F2229;
+    z-index: 2;
+}
+
+/* Main Block */
+
+.container {
+    text-align: center;
+    padding-top: 12.143vh;
+    width: 69.444vw;
+    height: 100vh;
+
+    margin-left: calc(50% - 34.722vw);
+    text-align: center;
+
+    background: #FAF6F6;
+    z-index: 1;
+}
